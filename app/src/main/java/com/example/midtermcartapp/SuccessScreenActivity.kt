@@ -10,7 +10,7 @@ class SuccessScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_success_screen)
 
-        // Back to Home ღილაკი
+        // Back to Home ღილაკი.
         val homeButton: Button = findViewById(R.id.backToStartBtn)
         homeButton.setOnClickListener {
             val homeIntent = Intent(this, StartScreenActivity::class.java)
