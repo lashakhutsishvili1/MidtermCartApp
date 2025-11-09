@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <!-- "Cart" სათაური -->
+    <!-- "Cart"  -->
     <TextView
         android:id="@+id/screenHeaderText"
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:paddingStart="24dp"
         android:paddingEnd="24dp">
 
-        <!-- Cart Icon - მარტივი ერთი სურათით -->
+        <!-- Cart Icon -->
         <ImageView
             android:id="@+id/shoppingCartIcon"
             android:layout_width="130dp"

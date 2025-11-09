@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#F5F5F5">
 
-    <!-- ცენტრალური კონტენტი -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="32dp" />
 
-        <!-- Optional: Order Total (თუ გინდა) -->
+        <!-- Optional: Order Total -->
         <TextView
             android:id="@+id/orderTotalTxt"
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
 
     </LinearLayout>
 
-    <!-- Back to Home Button (ქვემოთ) -->
+    <!-- Back to Home Button -->
     <Button
         android:id="@+id/backToStartBtn"
         android:layout_width="match_parent"

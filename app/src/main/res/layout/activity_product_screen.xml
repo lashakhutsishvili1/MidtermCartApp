@@ -161,7 +161,7 @@
                 android:textStyle="bold"
                 android:layout_marginEnd="12dp" />
 
-            <!-- Old Price (strikethrough - უნდა დაემატოს Kotlin-ში) -->
+            <!-- Old Price  -->
             <TextView
                 android:id="@+id/oldPriceText"
                 android:layout_width="wrap_content"
