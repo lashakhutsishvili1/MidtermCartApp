@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MidtermCartApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Hide status bar (საათის ველი) -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- Hide title bar -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MidtermCartApp" parent="Base.Theme.MidtermCartApp" />
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- "Cart" სათაური -->
+    <TextView
+        android:id="@+id/screenHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Cart"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- ცენტრალური კონტეინერი -->
+    <LinearLayout
+        android:id="@+id/centerBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <!-- Cart Icon - მარტივი ერთი სურათით -->
+        <ImageView
+            android:id="@+id/shoppingCartIcon"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="28dp"
+            android:src="@drawable/carticon"
+            android:scaleType="fitCenter"
+            android:contentDescription="shopping cart icon" />
+
+        <!-- Description Text -->
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="Discusses The Factors That Make A Logo Successful By Analyzing The Research, Brainstorming, Sketching, And Stylistic Experiments That Led To Its Development"
+            android:textColor="#757575"
+            android:textSize="13sp" />
+
+        <!-- Start Shopping Button -->
+        <Button
+            android:id="@+id/goToProductBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="#FF9800"
+            android:text="Start Shopping"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:stateListAnimator="@null" />
+
+    </LinearLayout>
+
+</RelativeLayout>

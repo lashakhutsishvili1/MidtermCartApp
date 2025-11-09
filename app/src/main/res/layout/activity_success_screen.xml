@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- ცენტრალური კონტენტი -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <!-- Payment Success Illustration -->
+        <ImageView
+            android:id="@+id/successIllustration"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:src="@drawable/paymentfraud"
+            android:scaleType="fitCenter"
+            android:contentDescription="payment success illustration"
+            android:layout_marginBottom="24dp" />
+
+        <!-- "Payment Successful!" Text -->
+        <TextView
+            android:id="@+id/successMessageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Successful!"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Optional: Order Total (თუ გინდა) -->
+        <TextView
+            android:id="@+id/orderTotalTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: 240$"
+            android:textColor="#424242"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+
+    <!-- Back to Home Button (ქვემოთ) -->
+    <Button
+        android:id="@+id/backToStartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#FF9800"
+        android:text="Back to Home"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null" />
+
+</RelativeLayout>
